@@ -4,24 +4,23 @@ This section will mostly cover you as an individual soldier and your gear. It wi
 
 ## Contents
 
-- 1. [Basic Infantry](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=_1-basic-infantry)
-  - A. Team Members
-  - B. [The Automatic Rifleman](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=b-the-automatic-rifleman)
-  - C. [The Saboteur](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=c-the-saboteur)
+- [Team Members](#team-members)
+  - [The Automatic Rifleman](#the-automatic-rifleman)
+  - [The Saboteur](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=c-the-saboteur)
     - Explosives charges
     - How to place and detonate explosive charges
     - Mines
     - Notes
-  - D. [The AT Specialist](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=d-the-at-specialist)
-    - Introduction
-    - Sighting
-    - Firing
-  - E. [Formations and Sectors](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=e-formations-and-sectors)
-    - Column Formation
-    - Wedge Formation
-    - Line Formation
-  - F. [Communications](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=f-communications)
-  - G. [Medical Emergencies](https://docs.freedom-fighters.eu/#/Basic-Infrantry?id=g-medical-emergencies)
+- [The AT Specialist](#the-at-specialist)
+  - Introduction
+  - Sighting
+  - Firing
+- [Formations and Sectors](#formations-and-sectors)
+  - Column Formation
+  - Wedge Formation
+  - Line Formation
+- [Communications](#communications)
+- [Medical Emergencies](#medical-emergencies)
 
 ## Team Members
 
@@ -226,8 +225,8 @@ Be smart when you decide to bandage yourself. Do it in a safe place, in hard cov
 
 The main problem for you now is that the wound you just bandaged can reopen and start bleeding again. Luckily, the medic possesses a surgical kit which allows him to stitch up your wounds so they won‟t reopen. This does not mean that you shouldn‟t bandage your wounds and just run to the medic in the middle of a firefight to ask to get bandaged and stitched. Deal with your current wounds as best you can and report to your fireteam lead that you‟ve been hit. The medic will either come to you when he can or you‟ll be told to go to the medic. We can't risk the medic dying because he‟s the only one who can use the personal aid kits.
 
-You can also decide to apply morphine to yourself if the medic won‟t be available for a while and you‟re in pain. You can do this by hovering over a limb and selecting “Inject Morphine”. You‟ll very likely start hearing your heart beat a couple of seconds after you do this. This reflects your heart rate dropping because of the morphine. As mentioned above, this effect will fade in around 15 minutes. You can also manually check your pulse with the self-interaction menu 
- Head 
+You can also decide to apply morphine to yourself if the medic won‟t be available for a while and you‟re in pain. You can do this by hovering over a limb and selecting “Inject Morphine”. You‟ll very likely start hearing your heart beat a couple of seconds after you do this. This reflects your heart rate dropping because of the morphine. As mentioned above, this effect will fade in around 15 minutes. You can also manually check your pulse with the self-interaction menu
+ Head
  Check pulse. Weak to normal heart rate is all right. You should be worried if a weak heart rate persists or if your heart rate becomes very weak. Epinephrine can be a solution in this case to raise your heart rate.
 
 Soldiers can also go unconscious. Most of the time this won‟t last very long (up to 15 seconds), but you should definitely intervene if the person stays unconscious. First, get them in a safe place. You can drag or even carry them with the interaction menu  “drag” or “carry”. The most important thing to do then is stopping them from bleeding further. Bandages and tourniquets are your friend here. Use the interaction menu (Left windows key by default). Make sure you call out to your fireteam lead that someone is down/unconscious. If you‟ve dealt with his wounds and the medic hasn‟t arrived yet, you should repeatedly perform CPR on the person until the medic is there and tells you to stop or the person wakes up. You can do this by using the interaction menu on their torso 
