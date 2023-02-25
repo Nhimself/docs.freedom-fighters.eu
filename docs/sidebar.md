@@ -4,7 +4,7 @@
 [Home](/)
 
 - CFsyn guides
-  - [Guide](/docs/guide.md "The greatest guide in the world")
+  - [Getting started](Getting-started.md "The greatest getting started guide in the world")
 
 - Training
   - [Basic-Infantry](Basic-Infrantry.md )
