@@ -1,13 +1,14 @@
 # Docs Readme
+
 This page is published at [docs.freedom-fighters.eu](https://docs.freedom-fighters.eu/)
 
 ## Docsify - Framework that generates the docs
 
-Home Page: https://docsify.js.org/#/
+[docsify.js](https://docsify.js.org/#/)
 
-Github Repository: https://github.com/docsifyjs/docsify
+[Github Repository](https://github.com/docsifyjs/docsify)
 
-Documentation: https://docsify.js.org/#/
+[Documentation](https://docsify.js.org/#/)
 
 ## Run Locally
 
