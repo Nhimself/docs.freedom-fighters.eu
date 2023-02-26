@@ -26,6 +26,7 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/prism-theme-one-dark/prism-onedark.css"> -->
 
     <!-- 3. Custom Theme Properties -->
+    <!--
     <style>
       :root {
         /* Reduce the font size */
@@ -39,6 +40,7 @@
         /* --sidebar-nav-link-before-content-l2: "💩"; */
       }
     </style>
+    -->
   </head>
 
   <body>
@@ -47,14 +49,27 @@
     <script>
       // 4. Docsify Configuration
       window.$docsify = {
+        maxAge: 300,
+        hideOtherSidebarContent: false,
+        placeholder: 'Search a topic',
+        noData: 'No Results!',
         coverpage: "coverpage.md",
         homepage: "README.md",
         // homepage   : 'https://raw.githubusercontent.com/jhildenbiddle/docsify-themeable/master/README.md',
         loadSidebar: "sidebar.md",
+        depth: 6,
         auto2top: true,
+        executeScript: true,
+        loadSidebar: true,
         maxLevel: 3,
         subMaxLevel: 1,
-
+        themeColor: "#ffffff",
+        formatUpdated: "{YYYY}-{MM}-{DD}",
+        mergeNavbar: false,
+        alias: {
+          // fix console errors about not loading specific sidebar
+          "/.*/_sidebar.md": "/_sidebar.md"
+        },
         // 5. docsify-themeable
         themeable: {
           // readyTransition : false,
