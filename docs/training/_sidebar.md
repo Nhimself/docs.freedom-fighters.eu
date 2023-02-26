@@ -2,7 +2,7 @@
 [Home](/)
 
 - Training
-  - [Basic Infantry](/training/Basic-Infrantry.md  "Basics for anyone joining, gear, medic system, gear, radio operations, team formations")
+  - [Basic Infantry](/training/Basic-Infrantry.md "Basics for anyone joining, gear, medic system, gear, radio operations, team formations")
   - [Basic Comms](/training/Basic-Comms.md "Radio operator basic's")
   - [Advanced Infantry](/training/Advanced-Infrantry.md "Formations, immediate action drills, and buddy team bounding overwatch")
   - [Fireteam Lead](/training/Fireteam-Lead.md "Concentration, situational awareness, confidence and a solid understanding of our tactics and training")
