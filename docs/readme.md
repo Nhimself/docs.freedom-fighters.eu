@@ -1,4 +1,4 @@
-<h1> Welcome </h1>
+<h1> Welcome</h1>
 
 Welcome to our documentation site for Freedom Fighters. We are an Arma 3 Community that take our gameplay very [serious](https://youtube.com/404). If you are a new starter please look at our getting started guide, if you are here to look for our training guides you can find them below. 
 
