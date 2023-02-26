@@ -1,0 +1,189 @@
+.banner {
+    padding: 1.5rem 2rem;
+    border-radius: 0.6rem;
+    border-color: #CCCCCC;
+    width: 100%;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .banner-icon {
+    min-width: 100px;
+  }
+  
+  .banner-title {
+    font-family: "Verdan";
+    font-size: 1.3em;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .banner-subtitle {
+    font-family: "Galano-Grotesque";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 0 !important;
+  }
+  
+  /* For banners and banner content to be displayed in line */
+  div.inline-left {
+    float: left;
+  }
+  
+  div.inline-right {
+    float: right;
+  }
+  
+  #getting-started-banner {
+    float: left;
+    width: 49%;
+    text-decoration: none !important;
+  }
+  
+  #authentication-banner {
+    float: right;
+    width: 49%;
+    text-decoration: none !important;
+  }
+  
+  #payments-banner {
+    float: left;
+    width: 49%;
+  }
+  
+  
+  #accounts-banner {
+    float: right;
+    width: 49%;
+  }
+  
+  #authentication-banner .banner-description {
+    margin-top: 0;
+  }
+  
+  #payments-banner .banner-description {
+    margin-top: 0;
+  }
+  
+  #getting-started .banner-description {
+    margin-top: 0;
+  }
+  
+  #accounts-banner .banner-description {
+    margin-top: 0;
+  }
+  
+  /* Remove green dash from link text-decoration */
+  #accounts-banner a,
+  #authentication-banner a,
+  #payments-banner a,
+  #getting-started-banner a {
+    text-decoration: none;
+  }
+  
+  #accounts-banner,
+  #payments-banner,
+  #getting-started-banner,
+  #authentication-banner
+  {
+    padding-top: 1rem;
+  }
+  #getting-started-banner .banner-description,
+  #accounts-banner .banner-description,
+  #payments-banner .banner-description,
+  #authentication-banner .banner-description {
+    padding-top: 0rem;
+  }
+  
+  /* To stop the floats */
+  .clear-both {
+    clear: both;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  
+    #getting-started-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #authentication-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #payments-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #accounts-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    div.inline-left {
+      float: left;
+    }
+  
+    div.inline-right {
+      float: right;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    #getting-started-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #payments-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #authentication-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    #accounts-banner {
+      float: none;
+      width: 100%;
+    }
+  
+    .banner {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 180px;
+    }
+  
+    .banner-icon {
+      width: 50%;
+      margin-bottom: 1em;
+    }
+  
+    .banner-icon img {
+      display: block;
+      margin-left: 0;
+      margin-right: auto;
+      width: 40%;
+    }
+  
+    .banner-subtitle {
+      font-size: 12px;
+    }
+  
+    div.inline-left {
+      float: left;
+    }
+  
+    div.inline-right {
+      float: right;
+    }
+  }
