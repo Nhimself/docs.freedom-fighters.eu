@@ -1,0 +1,36 @@
+:root {
+    --sidebar-toggle-border-radius: 0 5px 5px 0;
+    --sidebar-toggle-icon-color: blue;
+    --sidebar-toggle-background: #eceff1;
+  
+    /* navbar container's top + navbar logo's padding-top */
+    --sidebar-toggle-top: calc(15px + 16px);
+    --sidebar-icon-padding: 30%;
+  }
+  
+  /* so that horizontal line in nav wouldn't overlap sidebar-toggle btn */
+  .sidebar-toggle {
+    z-index: 31;
+  }
+  
+  body button.sidebar-toggle div.sidebar-toggle-button img.sidebar-toggle-icon {
+    width: 100%;
+    height: 100%;
+    padding: var(--sidebar-icon-padding);
+    transform: rotate(180deg);
+  }
+  
+  body main button.sidebar-toggle div.sidebar-toggle-button img.sidebar-toggle-icon {
+    transform: rotate(0deg);
+  }
+  
+  
+  body.close button.sidebar-toggle div.sidebar-toggle-button .sidebar-toggle-icon {
+    transition: all var(--sidebar-transition-duration) ease-out;
+    transform: rotate(0deg);
+  }
+  
+  body.close main button.sidebar-toggle div.sidebar-toggle-button img.sidebar-toggle-icon {
+    transition: all var(--sidebar-transition-duration) ease-out;
+    transform: rotate(180deg);
+  }

@@ -1,0 +1,82 @@
+:root {
+    /*
+     * General
+     */
+  
+    /* Max width of content container. */
+    --content-max-width: 80em;
+    --base-color: #000000;
+    --base-line-height: 1.5;
+    --base-font-family: "Galano-Grotesque";
+    --strong-color: #000000;
+    --modular-scale-1: 0.875rem;
+    --base-font-size: 14px;
+    --code-block-border-radius: var(--notice-border-radius);
+  
+    /* All headings */
+    --heading-color: black;
+    --heading-font-family: "Galano-Grotesque";
+    --heading-font-weight: 600;
+    --heading-margin: 0;
+    --heading-padding: 1rem 0 0 0;
+  
+    --heading-h1-padding: 60px 0 20px 0;
+    --heading-h1-font-weight: 600;
+    --heading-h2-font-weight: 600;
+    --heading-h1-font-family: "Galano-Grotesque";
+    --heading-h2-padding: 60px 0 0 0;
+    --heading-h3-padding: var(--heading-h2-padding);
+    --heading-h4-color: var(--strong-color);
+  
+    /* All links ( <a> tags) */
+    --link-color: blue;
+    --link-text-decoration: underline;
+    --link-text-decoration--hover: underline;
+  
+    /* lists */
+    --list-margin: 2rem 0;
+    --unordered-list-padding: 1rem 0;
+  }
+  
+  /* 
+   * Explicit rules that themeable doesn't have 
+   */
+  
+  p a,
+  li a {
+    font-weight: 600;
+    overflow-wrap: break-word;
+  }
+  
+  .markdown-section h1:first-child {
+    padding-top: 20px;
+  }
+  
+  article.markdown-section ul,
+  article.markdown-section ol {
+    margin: var(--list-margin);
+  }
+  
+  article.markdown-section ul li {
+    padding: var(--unordered-list-padding);
+  }
+  
+  /* strong link */
+  a strong {
+    color: var(--link-color);
+  }
+  
+  p:first-of-type {
+    margin-top: 0;
+  }
+  
+  .markdown-section img {
+    border-radius: var(--notice-border-radius);
+  }
+  
+  @media (max-width: 30em) {
+    .markdown-section .table-wrapper td {
+      display: block;
+      padding-bottom: 1em;
+    }
+  }

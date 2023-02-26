@@ -1,0 +1,64 @@
+article#main.markdown-section div.docsify-pagination-container .pagination-item:not(:last-child) a .pagination-item-label,
+article#main.markdown-section div.docsify-pagination-container .pagination-item:not(:last-child) a .pagination-item-title {
+  opacity: 1 !important;
+}
+
+/* Top level container of pagination */
+.docsify-pagination-container {
+  background-color: transparent;
+  border-color: #333333;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+
+}
+
+/* General container for pagination item */
+.pagination-item {
+  color: black;
+  padding: 1.5rem 2rem 1rem 2rem;
+}
+/* Container for previous pagination item */
+.pagination-item.pagination-item--previous {
+  margin-top: 0;
+}
+/* Container for next pagination item */
+.pagination-item.pagination-item--next {
+  margin-top: 0;
+}
+
+/* Pagination label container, e.g. Next > */
+.pagination-item a div.pagination-item-label {
+  font-size: 1em;
+}
+
+.pagination-item.pagination-item--next a div.pagination-item-label {
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination-item.pagination-item--previous a div.pagination-item-label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Pagination title container, e.g. Glossary */
+.pagination-item a div.pagination-item-title {
+  font-family: 'Galano-Grotesque';
+  font-weight: 600;
+}
+
+
+@media (max-width: 30em) {
+  .pagination-item a div.pagination-item-label {
+      font-size: 10px;
+  }  
+  .pagination-item a div.pagination-item-title {
+    font-size: 10px;
+  }
+
+  .pagination-item {
+    color: black;
+    padding: 1rem;
+  }
+}

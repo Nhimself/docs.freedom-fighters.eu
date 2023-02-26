@@ -1,0 +1,110 @@
+:root {
+    /*
+     * Sidebar
+     */
+    --sidebar-width: 26rem;
+    --sidebar-background: #f6f6f9;
+    --sidebar-padding: 2.5rem 25px 0 25px;
+    --sidebar-border-color: var(--sidebar-background);
+    --sidebar-name-font-size: 14px;
+    --sidebar-nav-strong-font-size: 16px;
+  
+    /*
+      * Sidebar Navigation Items
+      */
+  
+    --sidebar-nav-link-color: #000000;
+    --sidebar-nav-link-color--active: #000000;
+    --sidebar-nav-link-text-decoration: none;
+    --sidebar-nav-link-background-color--active: #e0e0e0;
+    --sidebar-nav-link-border-radius: 6px;
+    /* Removes active sidebar item border */
+    --sidebar-nav-link-border-width: 0;
+    --sidebar-nav-link-margin: 0 0 0 0;
+  
+    /*
+      * Sidebar Headers
+      */
+  
+    --sidebar-nav-strong-color: #000000;
+    --sidebar-nav-strong-border-width: 0;
+    --sidebar-nav-strong-font-weight: 900;
+  
+    /*
+      * Sidebar Page links
+      */
+  
+    /* Removes the arrow next to each */
+    --sidebar-nav-pagelink-background-image: ;
+    --sidebar-nav-pagelink-background-image--active: ;
+    --sidebar-nav-pagelink-background-image--collapse: ;
+    --sidebar-nav-pagelink-background-image--loaded: ;
+    /* Spacing to make nav items paging to documentation pages bigger*/
+    --sidebar-nav-link-padding: 1rem 1.5rem calc(1rem - 1px) 1.5rem;
+    --sidebar-nav-pagelink-padding: var(--sidebar-nav-link-padding);
+    --sidebar-nav-link-border-width: 0;
+    --sidebar-nav-link-border-width--active: 0;
+    --sidebar-nav-link-border-width--hover: 0;
+  
+    /*
+      * Custom variables
+      */
+  
+    --sidebar-category-font-family: "Galano-Grotesque";
+    --sidebar-link-font-family: "Galano-Grotesque";
+    --sidebar-category-font-weight: 600;
+    --sidebar-active-link-font-family: "Galano-Grotesque";
+    --search-input-border-radius: 6px;
+    --search-input-margin: -2rem 0rem 0rem 0rem
+  }
+  
+  .sidebar-nav li > a[href^="#/"]:not([href*="?id="]),
+  .sidebar-nav li > a[href^="#/"]:not([href*="?id="]) ~ ul a {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    overflow: unset;
+  }
+  
+  /* Sidebar Headings */
+  div.sidebar-nav ul li strong {
+    font-family: var(--sidebar-category-font-family);
+    font-weight: 600;
+  }
+  
+  /* Sidebar links */
+  .sidebar-nav ul li ul li {
+    font-family: var(--sidebar-link-font-family);
+  }
+  
+  /* Don't highlight unselected 3rd level sidebar items */
+  .sidebar-nav ul li ul li.active .app-sub-sidebar li a {
+    font-family: var(--sidebar-link-font-family);
+  }
+  
+  /* Sidebar active links */
+  .sidebar-nav ul li ul li.active a {
+    font-family: var(--sidebar-active-link-font-family);
+  }
+  .sidebar-nav ul li a,
+  .sidebar-nav ul li ul li a {
+    line-height: var(--base-font-size);
+  }
+  
+  /* Sidebar external links */
+  div.sidebar-nav ul li a {
+    font-family: var(--sidebar-link-font-family);
+  }
+  
+  .sidebar .search h2 {
+    color: black;
+  }
+  
+  .sidebar .search .matching-post p {
+    color: black;
+  
+  }

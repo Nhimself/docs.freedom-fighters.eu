@@ -1,0 +1,43 @@
+.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 0;
+  }
+  
+  .app-nav {
+    text-align: left;
+    position: unset;
+  }
+  
+  /* Extend the horizontal line so that it would go from sidebar to the rigth edge of the screen */
+  .app-nav hr {
+    margin-top: 1.5rem;
+    transform: translateX(-45px);
+    width: calc(100% + 90px);
+  }
+  
+  /* To match the content movement when sidebar collapses/expands */
+  nav {
+    transition: all var(--sidebar-transition-duration) ease-out;
+  }
+  
+  .logo-wrapper {
+    margin: 0 auto;
+    max-width: var(--content-max-width);
+    padding: 0 45px;
+    padding-top: 28px;
+  }
+  
+  .logo {
+    height: 34px; 
+  }
+  
+  .app-nav.no-badge {
+    right: -40px;
+  }
+  
+  /* Move nav right on mobile screens */
+  @media (max-width: 47.99em) {
+    body.ready.close > nav.app-nav {
+      display: block;
+      transform: translateX(var(--sidebar-width));
+    }
+  }
