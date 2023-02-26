@@ -1,0 +1,49 @@
+@import url("./banner.css");
+
+/* Other CSS used within docs */
+
+/* anti-alias */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom ordered list styling */
+article#main ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+}
+article#main ol li {
+  counter-increment: item;
+  position: relative;
+}
+
+article#main ol li p {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+article#main ol li #text {
+  padding-top: 1rem;
+}
+
+article#main ol li:before {
+  background-color: #00ff80;
+  border-radius: 100%;
+  content: counter(item);
+  color: #000;
+  height: 30px;
+  top: 0.5rem;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  font-weight: 700;
+}
+
+/* disable horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
