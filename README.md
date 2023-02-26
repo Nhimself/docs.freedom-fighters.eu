@@ -41,7 +41,7 @@ And add it to `_sidebar.md` to be shown in the sidebar. Identation represents hi
 - Headers in rendered markdown files are added to sidebar as subcategories. Maximum level is configurable in `index.html`, currently Max total level is set to 3 and max Sub level is set to 2, which means that only header 2 `##` will be added to sidebar. This can be overriden by 
   - adding ` {docsify-ignore}` at the end of a header to ignore it
   - ` {docsify-ignore-all}` to the first header in file to ignore all headers
-  - nesting custom `_sidebar.md` https://docsify.js.org/#/more-pages?id=nested-sidebars
+  - nesting custom `_sidebar.md` [link](https://docsify.js.org/#/more-pages?id=nested-sidebars)
 - The structure of the project can be changed, but after checking a few examples I found this structure to be cleanest
 - Docsify supports a lot of customizations like:
   - [Cover pages](https://docsify.js.org/#/configuration?id=coverpage)
